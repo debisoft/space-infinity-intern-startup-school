@@ -7,7 +7,7 @@ https://www.w3schools.com/postgresql/postgresql_install.php
 
 
 ## [Setup]
-### .env
+### .env files
 
 Create the `.env` file in the `frontend` and `backend` directory with the following contents:
 

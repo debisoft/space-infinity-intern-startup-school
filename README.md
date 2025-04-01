@@ -23,7 +23,7 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/space_infinity_inter
 ```
 
 Note that the following variable should be changed to match your local setup:
-- `DATABASE_URL`: postgres://<user>:<password>@localhost:<port>/<dbname>?schema=schema
+- `DATABASE_URL`: postgresql://<user>:<password>@localhost:<port>/<dbname>?schema=schema
 
 
 ### Install packages

@@ -1,7 +1,7 @@
 # Space Infinity Intern Startup School
 
 ## [Precondition]
-PostgreSQL (database system) needs to be installed. The following page shows how to install it on your local environment:
+Make sure PostgreSQL (a database system) is installed on your machine. You can find installation instructions here:
 https://www.w3schools.com/postgresql/postgresql_install.php
 
 
@@ -22,13 +22,13 @@ BACKEND_ORIGIN = "http://127.0.0.1:8000"
 DATABASE_URL="postgresql://postgres:postgres@localhost:5432/space_infinity_intern_startup_school"
 ```
 
-Note that the following variable should be changed to match your local setup:
+Note: Adjust the following variable to match your local setup:
 - `DATABASE_URL`: postgresql://<user>:<password>@localhost:<port>/<dbname>
 
 
 ### Install packages
 
-Execute the following commands:
+Run the following commands to install the necessary packages:
 
 frontend
 ```

@@ -40,8 +40,11 @@ def create_submission_page(project_id: str):
                     P("On a scale of 1 - 10, how’s your progress?", _class="progress"),
                     Input(placeholder="[Progress]", name="progress_comment", _class="progress_input input-form"),
                     Input(placeholder="[Upload files]", name="upload_link", _class="upload_input input-form"),
-                    Button("CONFIRM", _class="submit confirm-btn"),
-                    Button("SUBMIT", _class="submit disabled submit-btn"),
+                    Div(
+                        Button("CONFIRM", _class="submit confirm-btn"),
+                        Button("SUBMIT", _class="submit disabled submit-btn"),
+                        _class="button-wrapper"
+                    ),
                     H3("Feeling stuck?", _class="stuck"),
                     H3("Check Category Page", _class="category"),
                     _class="input_section"

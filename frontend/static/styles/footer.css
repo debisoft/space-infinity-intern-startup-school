@@ -1,0 +1,67 @@
+
+.footer_img {
+  width: 100%;
+  height: auto;
+
+  /* banner-01 2 */
+
+
+}
+
+
+
+
+
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+}
+
+.footer-contact {
+
+
+
+
+
+/* ONRamp, 100 College St. Toronto, ON Canada M5G1L5 */
+
+position: absolute;
+width: 567px;
+height: 134px;
+left: 719px;
+top: 1746px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+
+/* Contact : tenatch10@gmail.com  */
+
+position: absolute;
+width: 464px;
+height: 134px;
+left: 348px;
+top: 1748px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+
+
+}
+
